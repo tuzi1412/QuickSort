@@ -1,10 +1,10 @@
-package QuickSort
+package main
 
-// func main() {
-// 	var input []int = []int{100000, 5, 7, 9, 44, 33, 4, 6, 882222226, 453, 244, 234}
-// 	QuickSort(input)
-// 	fmt.Println(input)
-// }
+func main() {
+	var input []int = []int{100000, 5, 7, 9, 44, 33, 4, 6, 882222226, 453, 244, 234}
+	QuickSort(input)
+	fmt.Println(input)
+}
 
 func QuickSort(input []int) {
 	sort(0, len(input)-1, input)
